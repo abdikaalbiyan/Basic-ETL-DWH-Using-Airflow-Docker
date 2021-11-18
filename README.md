@@ -48,7 +48,6 @@ The Target DB is ready to use.<br><br>
 ```bat
 cd Basic-ETL-DWH-Using-Airflow-Docker/Airflow
 docker-compose up airflow-init
-docker-compose up
 ```
 
 Edit ./config.py to change Host Address for every DB according to your machine
@@ -70,4 +69,9 @@ db_config = {
 
 #edit your Docker Container Dir here
 source_dir = '/opt/airflow/dags/json-files'
+```
+
+Then run:
+```bat
+docker-compose up
 ```
