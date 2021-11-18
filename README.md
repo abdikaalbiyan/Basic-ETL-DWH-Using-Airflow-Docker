@@ -1,5 +1,11 @@
 # Basic-ETL-DWH-Using-Airflow-Docker
 
+
+## Flow
+<p align="center">
+    <img width="720" alt="Screen Shot 2021-11-18 at 22 45 38" src="https://user-images.githubusercontent.com/22974798/142448422-991209f4-e6b9-438c-8254-faf8b0198e9d.png">
+</p>
+
 ## Prequisite
 - Python 3.8.3
 - Docker v20.10.5
@@ -76,7 +82,11 @@ Then run:
 docker-compose up
 ```
 
-Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache Airflow Webserver.<br><br>
+Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache Airflow Webserver.<br>
+> Username: airflow<br>
+> Password: airflow<br>
+
+<br><br>
 
 ## Result
 
@@ -91,7 +101,10 @@ Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache A
 <i>JSON data that has been imported to Source DB</i>
 </p><br>
 
+
 <p align="center">
     <img width="314" alt="Screen Shot 2021-11-18 at 21 35 01" src="https://user-images.githubusercontent.com/22974798/142442787-4127e3b2-0072-4916-b432-3b4ebb50a5fe.png">
+    
 <i>The results from Python on Airflow batch processing</i>
+    
 </p><br>
