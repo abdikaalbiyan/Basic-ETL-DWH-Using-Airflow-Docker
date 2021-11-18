@@ -26,7 +26,7 @@ Then run this to get the Source DB's Host.<br>
 ```bat
 docker inspect <container id> | grep "Gateway"
 ```
-The Source DB is ready to use.<br>
+The Source DB is ready to use.<br><br>
 
 
 ### Initializing Target DB Environment
@@ -40,7 +40,7 @@ Then run this to get the Target DB's Host.<br>
 ```bat
 docker inspect <container id> | grep "Gateway"
 ```
-The Target DB is ready to use.
+The Target DB is ready to use.<br><br>
 
 
 
