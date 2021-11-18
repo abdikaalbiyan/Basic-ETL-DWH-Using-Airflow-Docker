@@ -22,7 +22,7 @@ cd Basic-ETL-DWH-Using-Airflow-Docker/Source
 docker-compose up -d
 ```
 That command will build PostgreSql inside Docker Container and create ``flight_data`` table inside the database.<br>
-Then run this to get the Source DB's Host.<br>
+Then run this to get the Source DB's host to be input into the config file later<br>
 ```bat
 docker inspect <container id> | grep "Gateway"
 ```
@@ -36,7 +36,7 @@ cd Basic-ETL-DWH-Using-Airflow-Docker/Destination
 docker-compose up -d
 ```
 That command will build PostgreSql inside Docker Container and create ``flight_data_summary`` table inside the database.<br>
-Then run this to get the Target DB's Host.<br>
+Then run this to get the Target DB's host to be input into the config file later<br>
 ```bat
 docker inspect <container id> | grep "Gateway"
 ```
@@ -76,6 +76,6 @@ Then run:
 docker-compose up
 ```
 
-Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache Airflow Webserver.
+Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache Airflow Webserver.<br><br>
 
 ## Result
