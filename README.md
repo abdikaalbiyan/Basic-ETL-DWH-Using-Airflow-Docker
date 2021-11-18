@@ -53,6 +53,7 @@ The Target DB is ready to use.<br><br>
 ### Initializing Airflow Environment
 ```bat
 cd Basic-ETL-DWH-Using-Airflow-Docker/Airflow
+mkdir ./logs ./plugins
 docker-compose up airflow-init
 ```
 
