@@ -79,3 +79,19 @@ docker-compose up
 Open [http://localhost:5884](http://localhost:5884) to access The UI of Apache Airflow Webserver.<br><br>
 
 ## Result
+
+<p align="center">
+    <img width="1431" alt="Screen Shot 2021-11-18 at 21 35 31" src="https://user-images.githubusercontent.com/22974798/142442005-62a67954-c874-4ed1-8f04-2617a3ec9f14.png">
+<i>Airflow home UI</i>
+</p>
+
+
+<p align="center">
+<img width="1160" alt="Screen Shot 2021-11-18 at 21 34 37" src="https://user-images.githubusercontent.com/22974798/142442338-1b89014b-e21d-4aca-9921-11f3b8485f90.png">
+<i>JSON data that has been imported to Source DB</i>
+</p>
+
+<p align="center">
+<img width="314" alt="Screen Shot 2021-11-18 at 21 35 01" src="https://user-images.githubusercontent.com/22974798/142442787-4127e3b2-0072-4916-b432-3b4ebb50a5fe.png">
+<i>The results from Python on Airflow batch processing</i>
+</p>
