@@ -1,0 +1,25 @@
+version: '3.6'
+
+services:
+  postgres:
+    container_name: source_postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    volumes:
+       - postgres:/data/postgres
+       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5434:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+    postgres:
